@@ -1,0 +1,13 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+  <nav mat-tab-nav-bar>
+    <a class='center' mat-tab-link
+    *ngFor="let link of navLinks"
+    [routerLink]="link.link"
+    routerLinkActive #rla="routerLinkActive"
+    [active]="rla.isActive">
+    {{link.label}}
+  </a>
+  </nav>
+
+<router-outlet></router-outlet>

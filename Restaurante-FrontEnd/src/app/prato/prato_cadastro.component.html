@@ -1,0 +1,22 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<p-fieldset legend="Cadastro de Pratos">
+<mat-card>
+    <mat-card-content>
+        <form #form="ngForm">
+            <app-restaurante-combo [(ngModel)]="prato.restauranteId" #restaurants="ngModel" name="restaurante" required>
+            </app-restaurante-combo>
+            <mat-form-field class="fullWidth">
+            <input [(ngModel)]="prato.nome" required name="prato" matInput placeholder="Nome do Prato" >
+            </mat-form-field>
+            <mat-form-field class="">
+             <input [(ngModel)]="prato.preco" required type="number" name="preco" matInput placeholder="Preço R$" >
+            </mat-form-field>
+</form>
+    </mat-card-content>
+    <mat-card-actions>
+        <button (click)="cadastrar(prato)" mat-button [disabled]="!form.valid"> Cadastrar</button>
+        <button routerLink="/prato/" mat-button>Voltar</button>
+    </mat-card-actions>
+</mat-card>
+</p-fieldset>

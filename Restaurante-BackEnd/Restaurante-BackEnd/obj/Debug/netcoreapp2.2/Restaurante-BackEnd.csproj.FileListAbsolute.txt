@@ -1,0 +1,14 @@
+C:\Users\cedro_nds\Desktop\Restaurante-BackEnd\Restaurante-BackEnd\bin\Debug\netcoreapp2.2\Restaurante-BackEnd.deps.json
+C:\Users\cedro_nds\Desktop\Restaurante-BackEnd\Restaurante-BackEnd\bin\Debug\netcoreapp2.2\Restaurante-BackEnd.runtimeconfig.json
+C:\Users\cedro_nds\Desktop\Restaurante-BackEnd\Restaurante-BackEnd\bin\Debug\netcoreapp2.2\Restaurante-BackEnd.runtimeconfig.dev.json
+C:\Users\cedro_nds\Desktop\Restaurante-BackEnd\Restaurante-BackEnd\bin\Debug\netcoreapp2.2\Restaurante-BackEnd.dll
+C:\Users\cedro_nds\Desktop\Restaurante-BackEnd\Restaurante-BackEnd\bin\Debug\netcoreapp2.2\Restaurante-BackEnd.pdb
+C:\Users\cedro_nds\Desktop\Restaurante-BackEnd\Restaurante-BackEnd\obj\Debug\netcoreapp2.2\Restaurante-BackEnd.csprojAssemblyReference.cache
+C:\Users\cedro_nds\Desktop\Restaurante-BackEnd\Restaurante-BackEnd\obj\Debug\netcoreapp2.2\Restaurante-BackEnd.csproj.CoreCompileInputs.cache
+C:\Users\cedro_nds\Desktop\Restaurante-BackEnd\Restaurante-BackEnd\obj\Debug\netcoreapp2.2\Restaurante-BackEnd.RazorAssemblyInfo.cache
+C:\Users\cedro_nds\Desktop\Restaurante-BackEnd\Restaurante-BackEnd\obj\Debug\netcoreapp2.2\Restaurante-BackEnd.RazorAssemblyInfo.cs
+C:\Users\cedro_nds\Desktop\Restaurante-BackEnd\Restaurante-BackEnd\obj\Debug\netcoreapp2.2\Restaurante-BackEnd.AssemblyInfoInputs.cache
+C:\Users\cedro_nds\Desktop\Restaurante-BackEnd\Restaurante-BackEnd\obj\Debug\netcoreapp2.2\Restaurante-BackEnd.AssemblyInfo.cs
+C:\Users\cedro_nds\Desktop\Restaurante-BackEnd\Restaurante-BackEnd\obj\Debug\netcoreapp2.2\Restaurante-BackEnd.RazorTargetAssemblyInfo.cache
+C:\Users\cedro_nds\Desktop\Restaurante-BackEnd\Restaurante-BackEnd\obj\Debug\netcoreapp2.2\Restaurante-BackEnd.dll
+C:\Users\cedro_nds\Desktop\Restaurante-BackEnd\Restaurante-BackEnd\obj\Debug\netcoreapp2.2\Restaurante-BackEnd.pdb

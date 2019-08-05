@@ -1,0 +1,17 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<p-fieldset legend="Cadastro de Restaurante">
+<mat-card>
+    <mat-card-content>
+        <form #form="ngForm">
+            <mat-form-field class="fullWidth">
+            <input [(ngModel)]="restaurante.nome" required name="restaurante" matInput placeholder="Nome do Restaurante" >
+            </mat-form-field>
+        </form>
+    </mat-card-content>
+    <mat-card-actions>
+        <button (click)="cadastrar(restaurante)" mat-button [disabled]="!form.valid">Cadastrar</button>
+        <button routerLink="/restaurante/" mat-button>Voltar</button>
+    </mat-card-actions>
+</mat-card>
+</p-fieldset>

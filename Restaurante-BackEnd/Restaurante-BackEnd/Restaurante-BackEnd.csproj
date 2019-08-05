@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <RootNamespace>Restaurante_BackEnd</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="NovaPasta3\**" />
+    <Content Remove="NovaPasta3\**" />
+    <EmbeddedResource Remove="NovaPasta3\**" />
+    <None Remove="NovaPasta3\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20190805203700_MyFirstMigration.cs" />
+    <Compile Remove="Migrations\20190805203700_MyFirstMigration.Designer.cs" />
+    <Compile Remove="Migrations\20190805223916_GerenciaRestaurantes.cs" />
+    <Compile Remove="Migrations\20190805223916_GerenciaRestaurantes.Designer.cs" />
+    <Compile Remove="Migrations\20190805231336_InitialCreate.cs" />
+    <Compile Remove="Migrations\20190805231336_InitialCreate.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+  </ItemGroup>
+
+</Project>
